@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Saja Jadili - CI/CD Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- هنا حطيت معلوماتي الشخصية -->
+    <header>
+        <h1>Saja Jadili</h1>
+        <h2>Cloud Computing</h2>
+    </header>
+
+    <!-- شرح بسيط عن CI/CD -->
+    <section>
+        <h3>What is CI/CD?</h3>
+        <p>
+            CI/CD stands for Continuous Integration and Continuous Deployment.
+            It is an important concept in cloud computing that helps developers
+            automate the process of building, testing, and delivering applications.
+            With Continuous Integration, any new code pushed to the repository is
+            automatically checked to make sure it works correctly. Continuous
+            Deployment then takes the approved changes and publishes them to the
+            live environment. This approach saves time, reduces mistakes, and keeps
+            software always up to date.
+        </p>
+    </section>
+
+    <!-- هنا بشرح شو بصير بعد ما أعمل push -->
+    <section>
+        <h3>My Pipeline</h3>
+        <p>
+            When I push my project to the main branch on GitHub, a workflow
+            is automatically triggered using GitHub Actions. The workflow checks
+            that all required files exist and prepares the project for deployment.
+            After the checks are completed successfully, the website is published
+            directly to GitHub Pages. This means any update I make becomes live
+            automatically without manual uploading.
+        </p>
+    </section>
+
+    <!-- جزء بسيط للتفاعل عشان يبين استخدام JavaScript -->
+    <section>
+        <h3>Interaction Demo</h3>
+        <p id="message">Click the button to see a change.</p>
+        <button onclick="changeText()">Click Me</button>
+    </section>
+
+    <!-- ربط ملف الجافاسكربت -->
+    <script src="script.js"></script>
+</body>
+</html>
